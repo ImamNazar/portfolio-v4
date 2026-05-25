@@ -1,0 +1,42 @@
+{
+  "name": "imamnazar.github.io",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Mohamed Imam — portfolio v4 · Next.js + R3F + GSAP",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.170.0",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/drei": "^9.114.0",
+    "@react-three/postprocessing": "^2.16.3",
+    "postprocessing": "^6.36.0",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.18",
+    "framer-motion": "^11.11.17",
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.170.0",
+    "tailwindcss": "^3.4.14",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.14.0",
+    "eslint-config-next": "^15.0.3"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
